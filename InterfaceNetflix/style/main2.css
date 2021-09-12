@@ -1,0 +1,196 @@
+:root{
+    --vermelho: #E50914;
+    --preta:#141414;
+  
+  
+    
+  }
+  
+  *{
+         margin:0;
+         padding:0;
+         box-sizing: border-box;
+  
+  }
+  /* elemento base */
+  
+  body{
+       background: var(--preta);
+       font-family: 'Times New Roman', Times, serif;
+       color: white;
+       text-align: borde-center;
+  }
+  
+  header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+      
+  }
+
+
+  header .logo{
+      margin-left: 5px;
+      color: var(--vermelho);
+      font-family: 'Arial Black', Times;
+      font-size: 50px;
+  }
+  
+  header nav a{
+    text-decoration: none;
+    color:white;
+    margin-left: 10px;
+    font-size: 25px;
+    margin-inline-end: 15px;
+  
+  }
+  
+  header nav a:hover{
+      color: red;
+      
+  }
+
+    
+header .logo:hover{
+    color: white;
+}
+
+
+  footer .rodape{
+    
+        height: 40px;
+        margin-left: 8px;
+        border-radius: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        text-decoration: none;
+
+  }
+  /* serie principal*/
+  .serie-principal {
+      
+      font-size: 16px;
+      background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),  url('/img/serie-principal.jpg ');
+  
+      height: 400px;
+      background-size:cover;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+  }
+  
+   .serie-principal .descricao{
+     margin-top: 10px;
+      margin-bottom: 40px;
+  }
+  .serie-principal .titulo{
+      margin-top: 15%;
+      font-size: 40px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  }
+  
+  
+  .botao{
+      background-color: rgba(0,0,0,.50);
+      border: none;
+      color: white;
+  
+      padding: 15px 30px;
+      margin-right: 15px;
+      font-size: 12px;
+      
+      cursor: pointer;
+      transition: 3s ease all;
+  }
+  
+  /* é hover e não haver.*/ 
+  
+  .botao:hover{       
+      background-color:white;
+      
+  }
+  .botao i{
+  margin-right: 8px;
+  color: red;
+  }
+  .botaolink{
+     text-decoration: none;
+      color: red ;
+      cursor: pointer;
+      
+  
+     
+  
+  }
+
+  .botao log{
+    display: inline-block;
+    height: 134px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+    cursor: pointer;
+
+  }
+  
+  
+  .container{
+      margin-left: 20px;
+  }
+  
+  .serie-principal  .container{
+      width: 70%;
+  }
+  
+.zoom {
+    overflow: hidden;
+  }
+  
+.box-serie  {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5;
+  }
+  
+  .zoom:hover  {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  
+  
+  .carrosel-serie{
+      margin:5px;
+  }
+  .entrada{
+    margin-top: 50px;
+    display: inline-block;
+    
+    
+      }
+
+      div.box {
+        width: 200px;
+        display: inline-block
+        
+    }
+    .titulo-conta{
+     font-size: 70px;
+     color: #fff;
+     cursor: pointer;
+
+    }
+    .photo:hover{
+    border-color:white;
+    border-style: solid;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.3);
+
+    }
